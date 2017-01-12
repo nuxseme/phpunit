@@ -1,0 +1,23 @@
+{
+    "name": "nuxseme/phpunit",
+    "description": "phpunit test",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "He Ya Dong",
+            "email": "nuxseme@gmail.com"
+        }
+    ],
+    "require": {
+        "php":">7.0"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "nuxseme\\phpunit\\": "./src"
+      }
+    }
+}
